@@ -70,9 +70,7 @@
             document.getElementById("showUsers").appendChild(addDiv);
         }
 
-    newMovieElement.addEventListener('click', deleteMovieHandler.bind(null, id));
-    const listRoot = document.getElementById('movie-list');
-    listRoot.append(newMovieElement);
+
     }
     
     }
